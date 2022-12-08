@@ -29,7 +29,6 @@ Console.Clear();
 Console.WriteLine("Введите количество элементов: ");
 int n = Convert.ToInt32(Console.ReadLine());
 double[] arr = new double[n];
-double diff = 0;
 CreateArray(arr);
 double min = arr[0];
 double max = arr[0];
